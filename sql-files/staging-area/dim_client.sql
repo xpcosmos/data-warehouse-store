@@ -1,5 +1,5 @@
 -- Cleaning and Transformation of the st_tb_cadastro_cliente table
-
+USE starea;
 SELECT * FROM st_tb_cadastro_cliente;
 
 ALTER TABLE st_tb_cadastro_cliente ADD (DATA_REGISTRO DATE);
@@ -42,11 +42,11 @@ COMMIT;
 --*  Creating new st_dim_cliente table
 CREATE TABLE ST_DIM_CLIENTE 
 (
-  NK_ID_CLIENTE VARCHAR2(20), 
-  NM_CLIENTE VARCHAR2(50), 
-  NM_CIDADE_CLIENTE VARCHAR2(50), 
+  NK_ID_CLIENTE VARCHAR(20), 
+  NM_CLIENTE VARCHAR(50), 
+  NM_CIDADE_CLIENTE VARCHAR(50), 
   FLAG_ACEITA_CAMPANHA CHAR(1), 
-  DESC_CEP VARCHAR2(10)
+  DESC_CEP VARCHAR(10)
 );
 
 
