@@ -1,8 +1,8 @@
 --* Create user and Database
-CREATE DATABASE starea;
+CREATE DATABASE 'source';
 
-CREATE USER 'starea'@'%' IDENTIFIED BY '<password>';
-GRANT ALL ON starea.* TO 'starea'@'%';
-GRANT ALL ON airbyte_internal.* TO 'starea'@'%' IDENTIFIED BY '<password>';
+CREATE USER 'source'@'%' IDENTIFIED BY '<password>';
+GRANT ALL ON 'source'.* TO 'source'@'%';
+GRANT ALL ON airbyte_internal.* TO 'source'@'%' IDENTIFIED BY '<password>';
 
 
