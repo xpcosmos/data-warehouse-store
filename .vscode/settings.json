@@ -9,23 +9,10 @@
             "server": "192.168.64.7",
             "port": 3306,
             "driver": "MySQL",
-            "name": "starea",
-            "database": "starea",
-            "username": "starea"
-        },
-        {
-            "mysqlOptions": {
-                "authProtocol": "default",
-                "enableSsl": "Disabled"
-            },
-            "previewLimit": 50,
-            "server": "192.168.64.7",
-            "port": 3306,
-            "driver": "MySQL",
-            "name": "dw",
-            "database": "dw",
-            "username": "dw",
-            "askForPassword": true
+            "name": "source",
+            "group": "Project 1 - DW",
+            "database": "TBS_SOURCE",
+            "username": "source"
         }
     ]
 }
