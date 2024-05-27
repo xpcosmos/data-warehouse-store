@@ -14,7 +14,6 @@ SELECT NK_ID_LOCALIDADE, NM_LOCALIDADE, NM_CIDADE_LOCALIDADE, NM_REGIAO_LOCALIDA
 FROM starea.ST_DIM_LOCALIDADE;
 COMMIT;
 
--- ************** Conectado como usuário dw **************
 
 -- Carga de Dados
 USE dw;
